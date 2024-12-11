@@ -1,0 +1,131 @@
+body {
+    background-color: #d5f0f5;
+    height: 100vh;
+
+}
+
+
+
+nav.menu-lateral {
+    width: 50px;
+    height: 100%;
+    background-color: #0f3759;
+    padding: 40px 0  1%;
+    box-shadow: 3px 0 0 #1B4BF7;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+nav.menu-lateral.expandir {
+    width: 300px;
+
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 7px;
+
+}
+
+.btn-expandir i {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+
+
+
+/* menu de escolha */
+ul {
+
+    list-style-type: none;
+
+}
+
+ul li.ativo {
+    background-color: #1B4BF7;
+    
+}
+
+ul li.item-menu:hover {
+    background-color: #1B4BF7;
+    transition: 0.7s;
+}
+
+.linha-home{
+    color: white;
+
+}
+
+ul li.item-menu a {
+    padding: 20px 4%;
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 38px;
+    overflow: hidden;
+}
+
+ul li.item-menu a .txt-link {
+    margin-left: 70px;
+    transition: 0.5s;
+    opacity: 0;
+
+}
+
+nav.menu-lateral.expandir .txt-link {
+    margin-left: 40px;
+    opacity: 1;
+}
+
+ul li.item-menu a .icon>img {
+    font-size: 100px;
+    margin-left: 1px;
+}
+
+
+
+/* rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2f5c85;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+footer .rodape,
+footer .numero,
+footer .objetivos {
+    margin-bottom: 20px;
+}
+
+footer .rodape h1 {
+    font-size: 30px;
+    margin: 0;
+}
+
+footer .numero p,
+footer .objetivos ul {
+    margin: 5px 0;
+}
+
+footer .objetivos ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer .linha {
+    margin-top: 20px;
+}
